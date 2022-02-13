@@ -1,0 +1,30 @@
+;; Add H code 72
+072
+;; Add e code 101
+010 010 102 001 100
+;; Add ll code 108 108
+010 010 102 008 100 301
+;; Add o code 11
+010 010 102 011 100
+;; Add , code 44
+044
+;; Add space code 32
+032
+;; Add w code 119
+010 010 102 019 100
+;; Add o code 12
+010 010 102 011 100
+;; Add r code 114
+010 010 102 014 100
+;; Add l code 108
+010 010 102 008 100
+;; Add d code 100
+010 010 102
+;; Add ! code 33
+033
+;; Reverse an move stack into mem
+308 306
+;; Print
+203
+;; Clear
+302 305

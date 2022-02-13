@@ -1,0 +1,51 @@
+Commands:
+  0: Add number to stack
+  1: Math
+    00: Add
+    01: Subtract
+    02: Multiply
+    03: Divide
+    04: Exponent
+    05: Modulo
+    06: Equal
+    07: Greater than
+    08: Less than
+    09: Greater than or equal
+    10: Less than or equal
+  2: I/O
+    00: Input
+    01: Output number
+    02: Output ASCII code
+    03: Output mem
+    04: Exit with code 0
+    05: Exit with code 1
+    06: Exit with code from stack
+    07: Run file with name in mem
+    08: Print entire stack (for debugging only, this is ugly!)
+  3: Stack-mem commands
+    00: Pop and discard top item
+    01: Duplicate top item
+    02: Swap top two items
+    03: Rotate top 3 items (a, b, c -> b, c, a)
+    04: Clear Stack
+    05: Pop into mem
+    06: Push from mem
+    07: Clear mem
+    08: Move stack into mem
+    09: Move mem into stack
+    10: Reverse stack
+    11: Reverse mem
+    12: Push length of active stack
+    13: Push length of mem
+    14: Push top item into mem (as string)
+  4: Stack-stack commands
+    0: Switch stacks
+    1: Move from stack to active
+    2: Append other stack to active stack
+    3: Replace active stack with other
+    4: Clear stack
+    5: Push length of stack
+
+  @: Label definition
+  $: Goto
+  ?: Conditional Goto
